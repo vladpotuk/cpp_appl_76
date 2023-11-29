@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="CarDealership">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Sale">
+      <UniqueIdentifier>{1c1b2928-5ca3-434f-8a93-73fb76b9f717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Car">
+      <UniqueIdentifier>{dda80f4c-6a87-4608-8527-4d9c34ad0eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Employee">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CarDealership.cpp">
+      <Filter>CarDealership</Filter>
+    </ClCompile>
+    <ClCompile Include="Employee.cpp">
+      <Filter>Employee</Filter>
+    </ClCompile>
+    <ClCompile Include="Sale.cpp">
+      <Filter>Sale</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>Car</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CarDealership.h">
+      <Filter>CarDealership</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee.h">
+      <Filter>Employee</Filter>
+    </ClInclude>
+    <ClInclude Include="Sale.h">
+      <Filter>Sale</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>Car</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
